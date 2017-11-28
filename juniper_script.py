@@ -33,4 +33,5 @@ def open_ssh_conn(ip):
         connection.close()    
     except IOError
         print 'error'
-        
+ 
+open_ssh_conn('192.168.44.150')
